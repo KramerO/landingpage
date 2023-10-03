@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  landingpage:
+    build: .
+    container_name: entual_landingpage
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+#    volumes:
+#      - .:/app
+#      - ./node_modules

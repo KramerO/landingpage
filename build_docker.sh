@@ -1,0 +1,1 @@
+sudo docker build . --tag okramer1704/landingpage:entual_latest && sudo docker push okramer1704/landingpage:entual_latest
